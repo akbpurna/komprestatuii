@@ -8,5 +8,5 @@ Encoding: UTF-8
 LazyData: true
 Imports: 
     renv,
-    other_package_1,
-    other_package_2
+    epiDisplay,
+    foreign, psych, tidyverse.
