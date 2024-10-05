@@ -1,4 +1,4 @@
-Package: Ujian Kompre
+Package: ujianKompre
 Title: Ujian Komprehensif Statistika UII
 Version: 0.1.0
 Authors@R: person("Purnama", "Akbar", email = "purnamaakbar@uii.ac.id", role = c("aut", "cre"))
