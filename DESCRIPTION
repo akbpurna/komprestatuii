@@ -1,7 +1,7 @@
 Package: Ujian Kompre
 Title: Ujian Komprehensif Statistika UII
 Version: 0.1.0
-Authors@R: person("Your", "Purnama Akbar", email = "purnamaakbar@uii.ac.id, role = c("aut", "cre"))
+Authors@R: person("Purnama", "Akbar", email = "purnamaakbar@uii.ac.id", role = c("aut", "cre"))
 Description: Brief description of your project.
 License: MIT + file LICENSE
 Encoding: UTF-8
