@@ -9,4 +9,4 @@ LazyData: true
 Imports: 
     renv,
     epiDisplay,
-    foreign, psych, tidyverse.
+    foreign, psych, tidyverse
