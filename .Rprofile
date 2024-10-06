@@ -13,9 +13,6 @@ if (file.exists("renv/activate.R")) {
   source("install.R")
 }
 
-# Membersihkan console otomatis saat RStudio dimulai
-cat("\014")
-
 # Atur lokasi kerja ke direktori sementara
 # setwd(tempdir())
 
@@ -38,3 +35,6 @@ on.exit({
   files_to_delete <- setdiff(all_files, files_to_keep)  # File yang tidak ada dalam files_to_keep akan dihapus
   unlink(files_to_delete, recursive = TRUE)  # Hapus file yang tidak ada di files_to_keep
 })
+
+# Membersihkan console otomatis saat RStudio dimulai
+cat("\014")
