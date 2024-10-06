@@ -17,7 +17,7 @@ if (file.exists("renv/activate.R")) {
 cat("\014")
 
 # Atur lokasi kerja ke direktori sementara
-setwd(tempdir())
+# setwd(tempdir())
 
 # Hapus file selama sesi, kecuali file-file penting
 on.exit({
